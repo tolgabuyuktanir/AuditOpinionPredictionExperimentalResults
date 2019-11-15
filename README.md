@@ -61,7 +61,7 @@ Independent Audit Opinion Prediction Experimental Results- Bağımsız Denetim G
 ## Veri Kümesi
 Veri kümesinde bulunan alanlar ve veri kümesine ait bir satır aşağıda gösterilmiştir.
 ```
-bildirim_numarasi  -> 262328
+bildirim_numarasi  -> ***
 sirket_adi  -> *** 
 sirket_kodu  -> *** 
 bildirim_tarihi  -> 26,02,2013 
