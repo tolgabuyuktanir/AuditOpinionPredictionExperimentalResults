@@ -145,7 +145,7 @@ Yukarıda paylaşılan veri kümesinin her bir satırı 65 sütundan oluşmaktad
 | AdaBoosted Decision Tree        | 0,905    | 0,905  | 0,914     | 0,908     |
 | Neural Net                      | 0,762    | 0,762  | 0,854     | 0,796     |
 | Quadratic Discriminant Analysis | 0,165    | 0,165  | 0,812     | 0,189     |
-| XGBoosts                        | 0,95     | 0,95   | 0,947     | 0,947     |
+| XGBoost                         | 0,95     | 0,95   | 0,947     | 0,947     |
 
 ### Filter Method
 
@@ -156,7 +156,7 @@ Filtreleme metodu ile ilgileşim değerleri yüksek olan değerler bir eşik dep
 | Random Forest            | 0,915    | 0,915  | 0,915     | 0,915     |
 | AdaBoost                 | 0,735    | 0,735  | 0,851     | 0,778     |
 | AdaBoosted Decision Tree | 0,790    | 0,790  | 0,855     | 0,816     |
-| XGBoosts                 | 0,916    | 0,916  | 0,914     | 0,915     |
+| XGBoost                  | 0,916    | 0,916  | 0,914     | 0,915     |
 
 ### Özyinelemeli Öznitelik Eleme (Recursive Feature Elimination)
 Bu algoritma çalıştırılarak 18 öznitelik kalana kadar eleme yapılmış, geriye öznitelikler kullanılarak sınıflandırma yapılmıştır. Sınıflandırma skorları aşağıdaki gibidir:
@@ -232,4 +232,4 @@ Hiper parametre seçimi, varsayılan parametrelerde en iyi sonucu veren XGBoost 
  'verbosity': 1}
 
 ```
-XGBoosts algoritması için hiper parametre ayarı yapıldığında en iyi parametreler yukarıdaki gibi olmaktadır. Bulunan parametrelere göre XGBoosts algoritması çalıştırıldığında, doğruluk değeri 0.948, duyarlılık 0.948, kesinlik 0.946 ve F1-Skor 0.946 olmaktadır. Elde edilen bu değerler, varsayılan parametreler ile alınan değerler ile neredeyse aynıdır.
+XGBoost algoritması için hiper parametre ayarı yapıldığında en iyi parametreler yukarıdaki gibi olmaktadır. Bulunan parametrelere göre XGBoost algoritması çalıştırıldığında, doğruluk değeri 0.948, duyarlılık 0.948, kesinlik 0.946 ve F1-Skor 0.946 olmaktadır. Elde edilen bu değerler, varsayılan parametreler ile alınan değerler ile neredeyse aynıdır.
